@@ -1,0 +1,40 @@
+{
+  "name": "@gogh/url-to-base64",
+  "version": "1.0.0",
+  "description": "Download any url to base64",
+  "keywords": [],
+  "author": "Elimeleth capuano <elimelethcapuano@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elimeleth/urlToBase64.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist && rollup --config"
+  },
+  "bugs": {
+    "url": "https://github.com/elimeleth/urlToBase64/issues"
+  },
+  "homepage": "https://github.com/elimeleth/urlToBase64#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "rollup-plugin-typescript2": "0.36.0",
+    "tsm": "2.3.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "axios": "1.6.7",
+    "dotenv": "16.4.1",
+    "mime": "^4.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
